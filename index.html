@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Personal Assistant</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#5f5e5a; --line:#e3e1db; --accent:#2f5d50; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161716; --fg:#ecebe6; --muted:#a3a29c; --line:#2c2d2b; --accent:#8cc4b1; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:56px 20px 72px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 8px; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  h2 { font-size:1.1rem; margin:32px 0 8px; }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hermes Personal Assistant</h1>
+  <p class="sub">A private, single-user assistant that runs on its owner's own computer at home.</p>
+
+  <h2>What it is</h2>
+  <p>Hermes is a personal tool, not a public service. It is used by one person to check their own
+  Gmail and Google Calendar. It is not offered to, and cannot be used by, anyone else.</p>
+
+  <h2>What it does with Google</h2>
+  <ul>
+    <li>Reads and searches the owner's email to summarize it on request.</li>
+    <li>Archives email the owner asks to archive (removes it from the Inbox; nothing is deleted).</li>
+    <li>Reads the owner's calendars and adds events the owner asks for.</li>
+  </ul>
+  <p>It never sends email, deletes email, or edits or deletes calendar events.</p>
+
+  <h2>Where data goes</h2>
+  <p>Nowhere else. Sign-in tokens and all data stay on the owner's own computer. Nothing is sold,
+  shared, or sent to third parties. Details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
